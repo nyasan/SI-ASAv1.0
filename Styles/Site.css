@@ -3,7 +3,7 @@
 
 body   
 {
-    background-image: url("..\BackgroundMasterPage.jpg");
+    background-image: url("../BackgroundMasterPage.jpg");
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
@@ -12,9 +12,9 @@ body
 }
 form
 {
-    top:1px;
-     height:100%;
-     }
+    top: 1px;
+    height: 100%;
+}
 a:link, a:visited
 {
     color: #034af3;
@@ -103,9 +103,9 @@ first child of the left and right table columns */
     position: relative;
     margin: 0px;
     padding: 0px;
-    background: #4b6c9e;
+    background: url('../banner.jpg');
     width: 100%;
-    height:150px;
+    height: 150px;
 }
 
 .header h1
@@ -150,8 +150,7 @@ first child of the left and right table columns */
 
 div.hideSkiplink
 {
-    background-color:#3a4f63;
-    width:100%;    
+    width: 100%;
 }
 
 div.menu
